@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;
+}
+.line{
+    border-top: 2px solid black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    background-color: darkgray;
+    top: 0;
+    height: 60px; /* Adjust the height as needed */
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    height: 100%; /* Fill the entire height of the navbar */
+}
+
+.navbar ul li {
+    margin: 0 10px;
+    height: 100%; /* Fill the entire height of the navbar */
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+}
+
+
+
+.home-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    padding-left: 300px;
+    padding-right: 200px;
+
+
+}
+
+.profile img {
+    width: 300px; 
+}
+
+.details {
+    margin-left: 20px;
+}
+
+.details h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+
+.details p {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+.small{
+    font-size: 1rem;
+}
+
+.details a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+/* Add styles for the 'About' section */
+#about {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff; /* Background color */
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow */
+}
+
+/* Style the headings in the 'About' section */
+#about h2 {
+    color: #333; /* Heading color */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Style the education details */
+.education-details {
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+/* Adjust styles for the 'Skills' section */
+#skills {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the 'Skills Known' heading */
+.skills-heading {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Style the skills list */
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style the individual skills */
+.skills-list li {
+    font-size: 1.8rem;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add hover effect on skills */
+.skills-list li:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+/* Adjust styles for the 'Achievements' section */
+.achive-heading {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Style the achievements list */
+.achive-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style individual achievement items */
+.achive-list li {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 70%; /* Adjust width */
+    text-align: center;
+}
+
+/* Adjust styles for the 'Projects' section */
+#projects {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the 'Projects' heading */
+#projects h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Style the projects list */
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style individual project items */
+#projects ul li {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
